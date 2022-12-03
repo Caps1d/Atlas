@@ -38,28 +38,28 @@ submit.setOnClickListener(new View.OnClickListener() {
 
         File f = new File("/data/data/com.example.atlas/files/benchjournal.txt");
         if(!(f.exists() && !f.isDirectory())) {
-            Toast.makeText(GymJournal.this, "bench file doesn't exist", Toast.LENGTH_SHORT).show();
+           // Toast.makeText(GymJournal.this, "bench file doesn't exist", Toast.LENGTH_SHORT).show();
             write(" "," "," ","benchjournal.txt");
            // write(" "," "," ","benchjournal.txt");
         }
 
         File v = new File("/data/data/com.example.atlas/files/squatjournal.txt");
         if(!(v.exists()&& !v.isDirectory())) {
-            Toast.makeText(GymJournal.this, "squat file doesn't exist", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(GymJournal.this, "squat file doesn't exist", Toast.LENGTH_SHORT).show();
             write(" "," "," ","squatjournal.txt");
           // write(" "," "," ","squatjournal.txt");
         }
 
         File l = new File("/data/data/com.example.atlas/files/pullupjournal.txt");
         if(!(l.exists()&& !l.isDirectory())) {
-            Toast.makeText(GymJournal.this, "pull up file doesn't exist", Toast.LENGTH_SHORT).show();
+            //Toast.makeText(GymJournal.this, "pull up file doesn't exist", Toast.LENGTH_SHORT).show();
             write(" "," "," ","pullupjournal.txt");
            // write(" "," "," ","pullupjournal.txt");
         }
 
         File k = new File("/data/data/com.example.atlas/files/deadliftjournal.txt");
         if(!(k.exists()&& !k.isDirectory())) {
-            Toast.makeText(GymJournal.this, "deadlift file doesn't exist", Toast.LENGTH_SHORT).show();
+           // Toast.makeText(GymJournal.this, "deadlift file doesn't exist", Toast.LENGTH_SHORT).show();
             write(" "," "," ","deadliftjournal.txt");
             //write(" "," "," ","deadliftjournal.txt");
         }
